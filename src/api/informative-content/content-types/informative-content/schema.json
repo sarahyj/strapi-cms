@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informative_contents",
+  "info": {
+    "singularName": "informative-content",
+    "pluralName": "informative-contents",
+    "displayName": "Informative Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

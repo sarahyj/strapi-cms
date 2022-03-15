@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mothership_messages",
+  "info": {
+    "singularName": "mothership-message",
+    "pluralName": "mothership-messages",
+    "displayName": "Mothership Message"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

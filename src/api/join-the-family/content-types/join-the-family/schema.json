@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "join_the_families",
+  "info": {
+    "singularName": "join-the-family",
+    "pluralName": "join-the-families",
+    "displayName": "Join The Family",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "join_the_family_cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::join-the-family-card.join-the-family-card"
+    }
+  }
+}
