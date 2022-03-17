@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * cheifs-card router.
+ * article router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::cheifs-card.cheifs-card');
+module.exports = createCoreRouter('api::article.article');

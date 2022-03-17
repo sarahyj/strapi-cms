@@ -32,10 +32,10 @@
       },
       "type": "text"
     },
-    "our_stories": {
+    "articles": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::our-story.our-story"
+      "target": "api::article.article"
     }
   }
 }

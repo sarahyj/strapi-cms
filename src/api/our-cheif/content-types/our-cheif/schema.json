@@ -4,7 +4,8 @@
   "info": {
     "singularName": "our-cheif",
     "pluralName": "our-cheifs",
-    "displayName": "Our Cheifs"
+    "displayName": "Our Cheifs",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,10 +18,10 @@
     "content": {
       "type": "text"
     },
-    "cheifs_cards": {
+    "employees": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::cheifs-card.cheifs-card"
+      "target": "api::employee.employee"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "life-at-hungerstation",
     "pluralName": "life-at-hungerstations",
-    "displayName": "life at hungerstation"
+    "displayName": "life at hungerstation",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -32,16 +33,22 @@
       "type": "string"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       }
+    },
+    "contents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::content.content"
     }
   }
 }

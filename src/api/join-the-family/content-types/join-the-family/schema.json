@@ -32,10 +32,10 @@
       },
       "type": "text"
     },
-    "join_the_family_cards": {
+    "contents": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::join-the-family-card.join-the-family-card"
+      "target": "api::content.content"
     }
   }
 }

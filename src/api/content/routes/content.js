@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * our-story router.
+ * content router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::our-story.our-story');
+module.exports = createCoreRouter('api::content.content');
